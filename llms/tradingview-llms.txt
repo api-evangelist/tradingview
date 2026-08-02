@@ -1,0 +1,28 @@
+# TradingView
+
+> TradingView is a charting, social, and market-data platform for traders and investors. Its developer surface is delivered as client-side, embeddable UI components and self-hosted JavaScript charting libraries — the open-source Lightweight Charts library, the free self-hosted Advanced Charts (Charting Library), the Trading Platform library, and a catalog of copy-paste embeddable widgets — plus a Broker Integration REST API that brokerages implement to enable in-chart trading. There is no public hosted market-data REST API.
+
+## Developer Products
+- [Lightweight Charts](https://www.tradingview.com/lightweight-charts/): Open-source (Apache-2.0) HTML5-canvas financial charting library; npm `lightweight-charts`.
+- [Advanced Charts (Charting Library)](https://www.tradingview.com/advanced-charts/): Free, self-hosted charting solution with a custom Datafeed API.
+- [Trading Platform](https://www.tradingview.com/trading-platform/): Advanced Charts plus in-chart trading via the Broker API.
+- [Embeddable Widgets](https://www.tradingview.com/widget/): Copy-paste financial widgets (charts, tickers, heatmaps, screeners, calendars).
+
+## Docs
+- [Charting Library Docs](https://www.tradingview.com/charting-library-docs/): Charting Library, Datafeed API, and Broker API reference.
+- [Lightweight Charts Docs](https://tradingview.github.io/lightweight-charts/): API reference and tutorials.
+- [Widget Docs](https://www.tradingview.com/widget-docs/): Embed and configuration reference.
+- [Broker REST API Spec](https://www.tradingview.com/rest-api-spec/): REST contract brokers implement for in-chart trading.
+
+## Repositories
+- [lightweight-charts](https://github.com/tradingview/lightweight-charts)
+- [charting-library-examples](https://github.com/tradingview/charting-library-examples)
+- [charting-library-tutorial](https://github.com/tradingview/charting-library-tutorial)
+- [GitHub org](https://github.com/tradingview)
+
+## Operations
+- [Status](https://status.tradingview.com)
+- [Support](https://www.tradingview.com/support/)
+- [Pricing](https://www.tradingview.com/pricing/)
+- [Blog](https://blog.tradingview.com/en/)
+- [Security / Bug Bounty](https://www.tradingview.com/bounty/)

@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tradingview.com
+versioning:
+  scheme: independent-per-product
+  charting_library:
+    scheme: major-version-train
+    current: v29
+    docs: https://www.tradingview.com/charting-library-docs/latest/releases/
+  lightweight_charts:
+    scheme: semver
+    current: 5.2.0
+    docs: https://github.com/tradingview/lightweight-charts/releases
+status_page: https://status.tradingview.com
+sla: null
+deprecation:
+  policy_url: null
+  notes: >-
+    No formal public API deprecation/Sunset-header policy located; charting
+    products deprecate via superseded major-version trains documented in release
+    notes.

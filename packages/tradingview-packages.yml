@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/tradingview
+packages:
+- language: javascript
+  registry: npm
+  name: lightweight-charts
+  url: https://www.npmjs.com/package/lightweight-charts
+  repo: https://github.com/tradingview/lightweight-charts
+  install: npm install lightweight-charts
+  version: 5.2.0
+  license: Apache-2.0
+  official: true
+  description: >-
+    Performant open-source HTML5-canvas financial charting library maintained by
+    TradingView. The flagship first-party client SDK.
+- language: swift
+  registry: github
+  name: LightweightChartsIOS
+  url: https://github.com/tradingview/LightweightChartsIOS
+  install: 'CocoaPods: pod ''LightweightCharts'''
+  official: true
+  description: Official iOS (Swift) wrapper for the Lightweight Charts library.
+- language: kotlin
+  registry: github
+  name: lightweight-charts-android
+  url: https://github.com/tradingview/lightweight-charts-android
+  install: 'Gradle: implementation ''com.tradingview:lightweightcharts'''
+  official: true
+  description: Official Android (Kotlin) wrapper for the Lightweight Charts library.
+- language: python
+  registry: pypi
+  name: lightweight-charts
+  url: https://pypi.org/project/lightweight-charts/
+  install: pip install lightweight-charts
+  official: false
+  description: >-
+    Community Python wrapper (by louisnw) around TradingView's Lightweight
+    Charts; not published by TradingView.

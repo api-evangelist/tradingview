@@ -1,0 +1,64 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.tradingview.com/widget/
+summary: >-
+  TradingView's primary developer surface is client-side, embeddable UI
+  components rather than a hosted REST API: a catalog of copy-paste financial
+  widgets plus self-hosted JavaScript charting libraries. Components render
+  real-time market data (stocks, crypto, forex, commodities) and are embedded
+  by pasting a loader snippet or instantiating a widget constructor.
+families:
+- name: Embeddable Widgets
+  description: >-
+    Prebuilt, copy-paste HTML/JS widgets embedded directly onto a website. Each
+    widget is configured via a JSON options object and loaded from
+    s3.tradingview.com embed scripts. Support 30+ languages and real-time data.
+  docs: https://www.tradingview.com/widget-docs/
+  catalog: https://www.tradingview.com/widget/
+  loader: https://s3.tradingview.com/external-embedding/
+  components:
+  - Advanced Chart
+  - Symbol Overview
+  - Mini Chart
+  - Market Overview
+  - Stock Market
+  - Market Data
+  - Ticker Tape
+  - Ticker
+  - Single Ticker
+  - Stock Heatmap
+  - Crypto Coins Heatmap
+  - ETF Heatmap
+  - Forex Cross Rates
+  - Forex Heatmap
+  - Screener
+  - Cryptocurrency Market
+  - Symbol Info
+  - Technical Analysis
+  - Fundamental Data
+  - Company Profile
+  - Top Stories
+  - Economic Calendar
+- name: Lightweight Charts
+  description: >-
+    Open-source (Apache-2.0) HTML5 canvas financial charting library. Smallest
+    and fastest TradingView chart library; instantiated in-page via createChart()
+    and fed data client-side. Distributed on npm as lightweight-charts.
+  docs: https://tradingview.github.io/lightweight-charts/
+  repo: https://github.com/tradingview/lightweight-charts
+  package: lightweight-charts
+- name: Advanced Charts (Charting Library)
+  description: >-
+    Free, standalone, self-hosted charting solution integrated via the Widget
+    constructor plus a custom Datafeed API implementation. Distributed as a
+    private repo granted on application. Modules: Charting Library widget,
+    Datafeed API, Broker API.
+  docs: https://www.tradingview.com/charting-library-docs/
+  apply: https://www.tradingview.com/advanced-charts/
+- name: Trading Platform
+  description: >-
+    Superset of Advanced Charts adding direct trading (order entry, positions,
+    account management) via the Broker API / IBrokerTerminal interface, wired to
+    a brokerage backend through the Broker Integration REST API.
+  docs: https://www.tradingview.com/charting-library-docs/latest/trading_terminal/
+  apply: https://www.tradingview.com/trading-platform/
