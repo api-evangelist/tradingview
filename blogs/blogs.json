@@ -12,7 +12,7 @@
       "source": "https://www.tradingview.com/feed/",
       "feed_url": "https://www.tradingview.com/feed/",
       "title": "",
-      "saved": 29,
+      "saved": 30,
       "method": "feed"
     },
     {
@@ -23,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 29,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 89,
+  "fetched": "2026-10-17T14:53:57Z"
 }
